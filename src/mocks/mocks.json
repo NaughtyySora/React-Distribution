@@ -1,0 +1,592 @@
+{
+  "ethereum": {
+      "id": "ethereum",
+      "name": "Ethereum",
+      "symbol": "eth",
+      "amount": 3,
+      "average": 1600,
+      "totalCost": 4800,
+      "favorite": true,
+      "image": "https://assets.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
+      "transactions": [
+          {
+              "id": 1697191295716,
+              "amount": 3,
+              "asset": {
+                  "id": "ethereum",
+                  "symbol": "eth",
+                  "name": "Ethereum"
+              },
+              "date": 1694512918714,
+              "price": 1600,
+              "sum": 4800,
+              "type": "buy",
+              "profit": 0,
+              "average": 1600,
+              "resultingAmount": 3
+          }
+      ],
+      "stats": {
+          "minBuyPrice": 1600,
+          "maxBuyPrice": 1600,
+          "buyAverage": 1600,
+          "sumBuy": 4800,
+          "sumBuyAmount": 3,
+          "sellAverage": null,
+          "sumSell": 0,
+          "sumSellAmount": 0,
+          "sumProfit": 0,
+          "sumProfitShare": 0,
+          "sumLoss": 0,
+          "sumLossShare": null,
+          "profitSummary": 0,
+          "buyToSellAverage": null,
+          "totalCostShare": 2.5084035875048754
+      }
+  },
+  "solana": {
+      "id": "solana",
+      "name": "Solana",
+      "symbol": "sol",
+      "amount": 500,
+      "average": 23,
+      "totalCost": 11500,
+      "favorite": true,
+      "image": "https://assets.coingecko.com/coins/images/4128/large/solana.png?1696504756",
+      "transactions": [
+          {
+              "id": 1697446543861,
+              "amount": 500,
+              "asset": {
+                  "id": "solana",
+                  "symbol": "sol",
+                  "name": "Solana",
+                  "image": "https://assets.coingecko.com/coins/images/4128/large/solana.png?1696504756"
+              },
+              "date": 1697360150864,
+              "price": 51,
+              "sum": 25500,
+              "type": "sell",
+              "profit": 14000,
+              "average": 23,
+              "resultingAmount": 500
+          },
+          {
+              "id": 1697191322956,
+              "amount": 1000,
+              "asset": {
+                  "id": "solana",
+                  "symbol": "sol",
+                  "name": "Solana"
+              },
+              "date": 1696932138956,
+              "price": 23,
+              "sum": 23000,
+              "type": "buy",
+              "profit": 0,
+              "average": 23,
+              "resultingAmount": 1000
+          }
+      ],
+      "stats": {
+          "minBuyPrice": 23,
+          "maxBuyPrice": 23,
+          "buyAverage": 23,
+          "sumBuy": 23000,
+          "sumBuyAmount": 1000,
+          "sellAverage": 51,
+          "sumSell": 25500,
+          "sumSellAmount": 500,
+          "sumProfit": 14000,
+          "sumProfitShare": 95.01789503689862,
+          "sumLoss": 0,
+          "sumLossShare": null,
+          "profitSummary": 14000,
+          "buyToSellAverage": 121.7391304347826,
+          "totalCostShare": 6.009716928397097
+      }
+  },
+  "cosmos": {
+      "id": "cosmos",
+      "name": "Cosmos Hub",
+      "symbol": "atom",
+      "amount": 1000,
+      "average": 7,
+      "totalCost": 7000,
+      "favorite": true,
+      "image": "https://assets.coingecko.com/coins/images/1481/large/cosmos_hub.png?1696502525",
+      "transactions": [
+          {
+              "id": 1697191352167,
+              "amount": 1000,
+              "asset": {
+                  "id": "cosmos",
+                  "symbol": "atom",
+                  "name": "Cosmos Hub"
+              },
+              "date": 1697105006166,
+              "price": 7,
+              "sum": 7000,
+              "type": "buy",
+              "profit": 0,
+              "average": 7,
+              "resultingAmount": 1000
+          }
+      ],
+      "stats": {
+          "minBuyPrice": 7,
+          "maxBuyPrice": 7,
+          "buyAverage": 7,
+          "sumBuy": 7000,
+          "sumBuyAmount": 1000,
+          "sellAverage": null,
+          "sumSell": 0,
+          "sumSellAmount": 0,
+          "sumProfit": 0,
+          "sumProfitShare": 0,
+          "sumLoss": 0,
+          "sumLossShare": null,
+          "profitSummary": 0,
+          "buyToSellAverage": null,
+          "totalCostShare": 3.6580885651112767
+      }
+  },
+  "ripple": {
+      "id": "ripple",
+      "name": "XRP",
+      "symbol": "xrp",
+      "amount": 30000,
+      "average": 0.45,
+      "totalCost": 13500,
+      "favorite": true,
+      "image": "https://assets.coingecko.com/coins/images/44/large/xrp-symbol-white-128.png?1696501442",
+      "transactions": [
+          {
+              "id": 1697191412708,
+              "amount": 30000,
+              "asset": {
+                  "id": "ripple",
+                  "symbol": "xrp",
+                  "name": "XRP"
+              },
+              "date": 1688465023707,
+              "price": 0.45,
+              "sum": 13500,
+              "type": "buy",
+              "profit": 0,
+              "average": 0.45,
+              "resultingAmount": 30000
+          }
+      ],
+      "stats": {
+          "minBuyPrice": 0.45,
+          "maxBuyPrice": 0.45,
+          "buyAverage": 0.45,
+          "sumBuy": 13500,
+          "sumBuyAmount": 30000,
+          "sellAverage": null,
+          "sumSell": 0,
+          "sumSellAmount": 0,
+          "sumProfit": 0,
+          "sumProfitShare": 0,
+          "sumLoss": 0,
+          "sumLossShare": null,
+          "profitSummary": 0,
+          "buyToSellAverage": null,
+          "totalCostShare": 7.0548850898574615
+      }
+  },
+  "polkadot": {
+      "id": "polkadot",
+      "name": "Polkadot",
+      "symbol": "dot",
+      "amount": 3344,
+      "average": 5,
+      "totalCost": 16720,
+      "favorite": true,
+      "image": "https://assets.coingecko.com/coins/images/12171/large/polkadot.png?1696512008",
+      "transactions": [
+          {
+              "id": 1697191432750,
+              "amount": 3344,
+              "asset": {
+                  "id": "polkadot",
+                  "symbol": "dot",
+                  "name": "Polkadot"
+              },
+              "date": 1684836247749,
+              "price": 5,
+              "sum": 16720,
+              "type": "buy",
+              "profit": 0,
+              "average": 5,
+              "resultingAmount": 3344
+          }
+      ],
+      "stats": {
+          "minBuyPrice": 5,
+          "maxBuyPrice": 5,
+          "buyAverage": 5,
+          "sumBuy": 16720,
+          "sumBuyAmount": 3344,
+          "sellAverage": null,
+          "sumSell": 0,
+          "sumSellAmount": 0,
+          "sumProfit": 0,
+          "sumProfitShare": 0,
+          "sumLoss": 0,
+          "sumLossShare": null,
+          "profitSummary": 0,
+          "buyToSellAverage": null,
+          "totalCostShare": 8.737605829808649
+      }
+  },
+  "magic": {
+      "id": "magic",
+      "name": "Magic",
+      "symbol": "magic",
+      "amount": 10000,
+      "average": 0.5,
+      "totalCost": 5000,
+      "favorite": true,
+      "image": "https://assets.coingecko.com/coins/images/18623/large/magic.png?1696518095",
+      "transactions": [
+          {
+              "id": 1697195225406,
+              "amount": 10000,
+              "asset": {
+                  "id": "magic",
+                  "symbol": "magic",
+                  "name": "Magic"
+              },
+              "date": 1697108835409,
+              "price": 0.5,
+              "sum": 5000,
+              "type": "buy",
+              "profit": 0,
+              "average": 0.5,
+              "resultingAmount": 10000
+          }
+      ],
+      "stats": {
+          "minBuyPrice": 0.5,
+          "maxBuyPrice": 0.5,
+          "buyAverage": 0.5,
+          "sumBuy": 5000,
+          "sumBuyAmount": 10000,
+          "sellAverage": null,
+          "sumSell": 0,
+          "sumSellAmount": 0,
+          "sumProfit": 0,
+          "sumProfitShare": 0,
+          "sumLoss": 0,
+          "sumLossShare": null,
+          "profitSummary": 0,
+          "buyToSellAverage": null,
+          "totalCostShare": 2.6129204036509117
+      },
+      "archive": false
+  },
+  "pepe": {
+      "id": "pepe",
+      "name": "Pepe",
+      "symbol": "pepe",
+      "amount": 1000000,
+      "average": 7e-7,
+      "totalCost": 0.7,
+      "favorite": true,
+      "image": "https://assets.coingecko.com/coins/images/29850/large/pepe-token.jpeg?1696528776",
+      "transactions": [
+          {
+              "id": 1697455332012,
+              "amount": 1000000,
+              "asset": {
+                  "id": "pepe",
+                  "symbol": "pepe",
+                  "name": "Pepe"
+              },
+              "date": 1694431342016,
+              "price": 7e-7,
+              "sum": 0.7,
+              "type": "buy",
+              "profit": 0,
+              "average": 7e-7,
+              "resultingAmount": 1000000
+          }
+      ],
+      "stats": {
+          "minBuyPrice": 7e-7,
+          "maxBuyPrice": 7e-7,
+          "buyAverage": 7e-7,
+          "sumBuy": 0.7,
+          "sumBuyAmount": 1000000,
+          "sellAverage": null,
+          "sumSell": 0,
+          "sumSellAmount": 0,
+          "sumProfit": 0,
+          "sumProfitShare": 0,
+          "sumLoss": 0,
+          "sumLossShare": null,
+          "profitSummary": 0,
+          "buyToSellAverage": null,
+          "totalCostShare": 0.00036580885651112767
+      }
+  },
+  "dogecoin": {
+      "id": "dogecoin",
+      "name": "Dogecoin",
+      "symbol": "doge",
+      "amount": 500000,
+      "average": 0.008,
+      "totalCost": 4000,
+      "favorite": true,
+      "image": "https://assets.coingecko.com/coins/images/5/large/dogecoin.png?1696501409",
+      "transactions": [
+          {
+              "id": 1697455354128,
+              "amount": 500000,
+              "asset": {
+                  "id": "dogecoin",
+                  "symbol": "doge",
+                  "name": "Dogecoin"
+              },
+              "date": 1697368978128,
+              "price": 0.008,
+              "sum": 4000,
+              "type": "buy",
+              "profit": 0,
+              "average": 0.008,
+              "resultingAmount": 500000
+          }
+      ],
+      "stats": {
+          "minBuyPrice": 0.008,
+          "maxBuyPrice": 0.008,
+          "buyAverage": 0.008,
+          "sumBuy": 4000,
+          "sumBuyAmount": 500000,
+          "sellAverage": null,
+          "sumSell": 0,
+          "sumSellAmount": 0,
+          "sumProfit": 0,
+          "sumProfitShare": 0,
+          "sumLoss": 0,
+          "sumLossShare": null,
+          "profitSummary": 0,
+          "buyToSellAverage": null,
+          "totalCostShare": 2.0903363229207295
+      }
+  },
+  "binancecoin": {
+      "id": "binancecoin",
+      "name": "BNB",
+      "symbol": "bnb",
+      "amount": 150,
+      "average": 208,
+      "totalCost": 31200,
+      "favorite": true,
+      "image": "https://assets.coingecko.com/coins/images/825/large/bnb-icon2_2x.png?1696501970",
+      "transactions": [
+          {
+              "id": 1697455391985,
+              "amount": 150,
+              "asset": {
+                  "id": "binancecoin",
+                  "symbol": "bnb",
+                  "name": "BNB"
+              },
+              "date": 1697369045985,
+              "price": 208,
+              "sum": 31200,
+              "type": "buy",
+              "profit": 0,
+              "average": 208,
+              "resultingAmount": 150
+          }
+      ],
+      "stats": {
+          "minBuyPrice": 208,
+          "maxBuyPrice": 208,
+          "buyAverage": 208,
+          "sumBuy": 31200,
+          "sumBuyAmount": 150,
+          "sellAverage": null,
+          "sumSell": 0,
+          "sumSellAmount": 0,
+          "sumProfit": 0,
+          "sumProfitShare": 0,
+          "sumLoss": 0,
+          "sumLossShare": null,
+          "profitSummary": 0,
+          "buyToSellAverage": null,
+          "totalCostShare": 16.30462331878169
+      }
+  },
+  "matic-network": {
+      "id": "matic-network",
+      "name": "Polygon",
+      "symbol": "matic",
+      "amount": 70000,
+      "average": 0.56,
+      "totalCost": 39200.00000000001,
+      "favorite": true,
+      "image": "https://assets.coingecko.com/coins/images/4713/large/matic-token-icon.png?1696505277",
+      "transactions": [
+          {
+              "id": 1697455458031,
+              "amount": 70000,
+              "asset": {
+                  "id": "matic-network",
+                  "symbol": "matic",
+                  "name": "Polygon"
+              },
+              "date": 1697455496030,
+              "price": 0.56,
+              "sum": 39200.00000000001,
+              "type": "buy",
+              "profit": 0,
+              "average": 0.56,
+              "resultingAmount": 70000
+          }
+      ],
+      "stats": {
+          "minBuyPrice": 0.56,
+          "maxBuyPrice": 0.56,
+          "buyAverage": 0.56,
+          "sumBuy": 39200.00000000001,
+          "sumBuyAmount": 70000,
+          "sellAverage": null,
+          "sumSell": 0,
+          "sumSellAmount": 0,
+          "sumProfit": 0,
+          "sumProfitShare": 0,
+          "sumLoss": 0,
+          "sumLossShare": null,
+          "profitSummary": 0,
+          "buyToSellAverage": null,
+          "totalCostShare": 20.485295964623152
+      }
+  },
+  "monero": {
+      "id": "monero",
+      "name": "Monero",
+      "symbol": "xmr",
+      "amount": 100,
+      "average": 160,
+      "totalCost": 16000,
+      "favorite": true,
+      "image": "https://assets.coingecko.com/coins/images/69/large/monero_logo.png?1696501460",
+      "transactions": [
+          {
+              "id": 1697456075845,
+              "amount": 100,
+              "asset": {
+                  "id": "monero",
+                  "symbol": "xmr",
+                  "name": "Monero"
+              },
+              "date": 1697369688847,
+              "price": 160,
+              "sum": 16000,
+              "type": "buy",
+              "profit": 0,
+              "average": 160,
+              "resultingAmount": 100
+          }
+      ],
+      "stats": {
+          "minBuyPrice": 160,
+          "maxBuyPrice": 160,
+          "buyAverage": 160,
+          "sumBuy": 16000,
+          "sumBuyAmount": 100,
+          "sellAverage": null,
+          "sumSell": 0,
+          "sumSellAmount": 0,
+          "sumProfit": 0,
+          "sumProfitShare": 0,
+          "sumLoss": 0,
+          "sumLossShare": null,
+          "profitSummary": 0,
+          "buyToSellAverage": null,
+          "totalCostShare": 8.361345291682918
+      }
+  },
+  "bitcoin": {
+      "id": "bitcoin",
+      "name": "Bitcoin",
+      "symbol": "btc",
+      "amount": 1.9,
+      "average": 22332.666666666668,
+      "totalCost": 42432.066666666666,
+      "favorite": true,
+      "image": "https://assets.coingecko.com/coins/images/1/large/bitcoin.png?1696501400",
+      "transactions": [
+          {
+              "id": 1698236295857,
+              "amount": 1.1,
+              "asset": {
+                  "id": "bitcoin",
+                  "symbol": "btc",
+                  "name": "Bitcoin"
+              },
+              "date": 1698236303857,
+              "price": 23000,
+              "sum": 25300.000000000004,
+              "type": "sell",
+              "profit": 734.0666666666657,
+              "average": 22332.666666666668,
+              "resultingAmount": 1.9
+          },
+          {
+              "id": 1698236279652,
+              "amount": 1,
+              "asset": {
+                  "id": "bitcoin",
+                  "symbol": "btc",
+                  "name": "Bitcoin"
+              },
+              "date": 1697458687650,
+              "price": 31000,
+              "sum": 31000,
+              "type": "buy",
+              "profit": 0,
+              "average": 22332.666666666668,
+              "resultingAmount": 3
+          },
+          {
+              "id": 1698236261203,
+              "amount": 2,
+              "asset": {
+                  "id": "bitcoin",
+                  "symbol": "btc",
+                  "name": "Bitcoin"
+              },
+              "date": 1652876272207,
+              "price": 17999,
+              "sum": 35998,
+              "type": "buy",
+              "profit": 0,
+              "average": 17999,
+              "resultingAmount": 2
+          }
+      ],
+      "stats": {
+          "minBuyPrice": 17999,
+          "maxBuyPrice": 31000,
+          "buyAverage": 22332.666666666668,
+          "sumBuy": 66998,
+          "sumBuyAmount": 3,
+          "sellAverage": 23000,
+          "sumSell": 25300.000000000004,
+          "sumSellAmount": 1.1,
+          "sumProfit": 734.0666666666657,
+          "sumProfitShare": 4.982104963101378,
+          "sumLoss": 0,
+          "sumLossShare": null,
+          "profitSummary": 734.0666666666657,
+          "buyToSellAverage": 2.9881488999671575,
+          "totalCostShare": 22.174322552481815
+      }
+  }
+}

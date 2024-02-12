@@ -1,0 +1,35 @@
+@use "../Table/Table.scss";
+
+.TableBodyRow {
+  color: var(--white);
+  @extend .Table-row;
+
+  &.currentcolor {
+    .PrettyNumber {
+      color: var(--color) !important;
+    }
+  }
+
+  &.colorless {
+    .PrettyNumber {
+      color: var(--white) !important;
+    }
+  }
+
+  &-label {
+    position: relative;
+
+    &::before {
+      content: "";
+      width: 22px;
+      height: 22px;
+      border: 5px solid var(--color, --white);
+      border-radius: 50px;
+      display: block;
+      transform: translate(-50%, -50%);
+      position: absolute;
+      left: 50%;
+      top: 50%;
+    }
+  }
+}

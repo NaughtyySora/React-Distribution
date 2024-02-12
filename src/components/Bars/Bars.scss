@@ -1,0 +1,12 @@
+.Bars {
+  margin-bottom: 2rem;
+  cursor: pointer;
+
+  &-item {
+    transition: filter .15s ease;
+
+    &:hover {
+      filter: brightness(80%);
+    }
+  }
+}

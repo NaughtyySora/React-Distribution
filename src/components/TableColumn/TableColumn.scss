@@ -1,0 +1,5 @@
+@use "../Table/Table.scss";
+
+.TableColumn {
+  @extend .Table-column;
+}
