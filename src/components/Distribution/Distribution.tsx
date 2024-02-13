@@ -52,7 +52,7 @@ export const Distribution = <T extends object>({ data, fields, colors = palette,
   const colorsArray = new Array(Math.ceil(parsed.length / colors.length)).fill(colors).flat();
   const barsData = sorted.map((item, i) => ({ fill: colorsArray[i], value: item[sort?.by] }));
 
-  function listSort(a: any, b: any) {
+  function listSort(a: T, b: T) {
     if (!sort) return 0;
     const type = typeof a[sort.by];
     const type2 = typeof b[sort.by];
@@ -62,7 +62,7 @@ export const Distribution = <T extends object>({ data, fields, colors = palette,
     const arg2 = direction ? a : b;
     const sortFn = sortStrategies[type as keyof typeof sortStrategies];
     if (!sortFn) return 0;
-    return sortFn(arg1[sort.by], arg2[sort.by]);
+    return sortFn(arg1[sort.by] as tSortItem, arg2[sort.by] as tSortItem);
   }
 
   return (
