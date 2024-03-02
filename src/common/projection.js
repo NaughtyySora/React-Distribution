@@ -1,9 +1,9 @@
-import { isArray } from "./common";
+import { isValidArray } from "./common";
 
 const types = ["number", "string", "bigint", "boolean"];
 
 export const projection = meta => data => meta.reduce((acc, key) => {
-  if (isArray(key)) {
+  if (isValidArray(key)) {
     const [field, name] = key;
     acc[name] = data[field];
   } else {

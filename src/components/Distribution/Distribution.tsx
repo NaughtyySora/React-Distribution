@@ -1,6 +1,6 @@
 
 import { projection } from "../../common/projection";
-import { isArray, slice } from "../../common/common";
+import { isValidArray, slice } from "../../common/common";
 import { Table, tNumberColors } from "../Table/Table";
 import { Bars } from "../Bars/Bars";
 import "./Distribution.scss";
@@ -45,25 +45,28 @@ const sortStrategies = {
 export const Distribution = <T extends object>({ data, fields, colors = palette,
   label = false, sort, numbersColor, limit = 0, bars = false, className = "" }: iDistribution<T>) => {
 
-  const getFields = projection(fields);
-  const parsed = data?.map(getFields);
-  const sorted = slice(sort ? parsed.sort(listSort) : parsed, limit);
-  const headList = fields.map(field => isArray(field) ? (field as tStringArray)[1] : field) as tStringArray;
-  const colorsArray = new Array(Math.ceil(parsed.length / colors.length)).fill(colors).flat();
-  const barsData = sorted.map((item, i) => ({ fill: colorsArray[i], value: item[sort?.by] }));
-
-  function listSort(a: T, b: T) {
-    if (!sort) return 0;
-    const type = typeof a[sort.by];
-    const type2 = typeof b[sort.by];
-    if (type !== type2) return 0;
-    const direction = sort?.direction === "asc";
-    const arg1 = direction ? b : a;
-    const arg2 = direction ? a : b;
-    const sortFn = sortStrategies[type as keyof typeof sortStrategies];
-    if (!sortFn) return 0;
-    return sortFn(arg1[sort.by] as tSortItem, arg2[sort.by] as tSortItem);
-  }
+    const sortBy = fields.map(item => typeof item === "string" ? [item, item] : item) as string[]
+    const sortField = sortBy.find(item => item[0] === sort?.by)?.[1] as string;
+  
+    const getFields = projection(fields);
+    const parsed = data?.map(getFields);
+    const sorted = slice(sort ? parsed.sort(listSort) : parsed, limit);
+    const headList = fields.map(field => isValidArray(field) ? (field as tStringArray)[1] : field) as tStringArray;
+    const colorsArray = new Array(Math.ceil(parsed.length / colors.length)).fill(colors).flat();
+    const barsData = sorted.map((item, i) => ({ fill: colorsArray[i], value: item[sortField] }));
+  
+    function listSort(a: T, b: T) {
+      if (!sort) return 0;
+      const type = typeof a[sortField as keyof typeof a];
+      const type2 = typeof b[sortField as keyof typeof a];
+      if (type !== type2) return 0;
+      const direction = sort?.direction === "asc";
+      const arg1 = direction ? b : a;
+      const arg2 = direction ? a : b;
+      const sortFn = sortStrategies[type as keyof typeof sortStrategies];
+      if (!sortFn) return 0;
+      return sortFn(arg1[sortField as keyof typeof a] as tSortItem, arg2[sortField as keyof typeof a] as tSortItem);
+    }
 
   return (
     <div className={`Distribution ${className}`}>

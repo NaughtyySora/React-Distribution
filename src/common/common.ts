@@ -7,4 +7,4 @@ export const id = (x: any) => x;
 
 export const slice = <T extends object>(array: T[], range?: number) => range ? array.slice(0, range) : array;
 
-export const isArray = (ds: any) => Array.isArray(ds) && !!ds.length;
+export const isValidArray = (ds: any) => Array.isArray(ds) && !!ds.length;
