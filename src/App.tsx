@@ -18,9 +18,10 @@ export const App = () => {
       <Distribution
         data={data}
         fields={["symbol", "favorite", ["amount", "actually amount"]]}
-        sort={{ by: "amount", direction: "desc" }}
+        sort={{ by: "amount", direction: "asc" }}
         numbersColor="colorless"
         bars
+        label
         limit={5}
         colors={["red", "blue", "orange", "white", "violet"]}
       />
@@ -31,6 +32,7 @@ export const App = () => {
         sort={{ by: "name", direction: "asc" }}
         numbersColor="profit_loss"
         bars
+        label
         limit={3}
       />
     </div>
